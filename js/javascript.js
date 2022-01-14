@@ -1,3 +1,6 @@
 function changeColor(){
-    window.document.body.style.color = 'lightsalmon';
+    const etiqueta = document.querySelector('h1');
+    const etiquetaP = document.querySelector('p');
+    etiqueta.style.color = 'lightblue';
+    etiquetaP.style.color = 'lightsalmon';
 }
